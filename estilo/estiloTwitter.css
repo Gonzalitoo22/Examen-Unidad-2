@@ -1,0 +1,201 @@
+.menu_pie ul{
+	list-style: none;
+	text-align: center;
+	color: #14171a;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 100%;
+}
+
+.headT{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+.bodyP{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+.menu_pie ul li{
+	display: inline-block;
+	font-family: sans-serif;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 6px 0px 6px;
+}
+
+li{
+	text-align: inherit;
+	font-size: 12px;
+	line-height: 20px;
+	margin: 0px 0px 0px 0px;
+	color: #73808a;	
+}
+a:hover.linkPie {
+    text-decoration: underline;
+}
+a.linkPie {
+	background: transparent;
+	color: #73808a;
+	text-decoration: none; 
+}
+.divPrincipal{
+	display: inline-block;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	width: 100%;
+	height: 600px%;
+}
+.divIzq{
+	background-image: url("../imagenes/fondoazul.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	alignment-baseline: central;
+	display: inline-block;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	width: 50%;
+	height: 90%;
+	float: left;
+}
+
+.divIzqI{
+	display: inline;
+	padding: 220px 0px 220px 0px;
+	margin: 0px 0px 0px 0px;
+	align-content: center;
+	color: #ffffff;
+	font-family: Segoe UI;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	max-width: 440;
+	float: left;
+	background-color: transparent;
+}
+
+.divDer{
+	display: inline;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	width: 50%;
+	height: 90%;
+	float: right;
+	align-items: center;
+	align-content: center;
+}
+.divDerI{
+	max-width: 350px;
+	padding-top: 15%;
+	padding-left: 30%;
+}
+
+.pieT{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 100%;
+}
+
+.logoB{
+	display: flex;
+	align-items: center;
+}
+.divLinkI{
+	float: left;
+	line-height: 35px;
+}
+.logoB{
+	display: flex;
+	justify-content: space-between;
+	
+}
+a.logoT{
+	height: 100%;
+}
+a.linkIS{
+	border-radius: 100px;
+	font-size: 14px;
+	font-family: segoe UI;
+	font-weight: bold;
+	cursor: pointer;
+	text-align: center;
+	padding: 6px 16px;
+	color: #1da1f2;
+	text-decoration: none;
+	background-color: #ffffff;
+	border: 1px solid #1da1f2;
+}
+a:hover.linkIS{
+	background-color: #c6e3fa;
+}
+.linkIS{
+	float: left;
+}
+.divDerReg{
+	
+}
+a.registrarse{
+	background-color: #1da1f2;
+	border: 1px solid #1da1f2;
+	color: #ffffff;
+	border-radius: 100px;
+	font-size: 14px;
+	font-family: segoe UI;
+	text-align: center;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 6px 40%;
+	text-decoration: none;
+	display: flex;
+	justify-content: space-between;
+}
+a:hover.registrarse{
+	background-color: #2073e6;
+}
+.divIniciarS{
+	padding-top: 20px;
+}
+a.inicioS{
+	border-radius: 100px;
+	font-size: 14px;
+	cursor: pointer;
+	text-align: center;
+	font-weight: bold;
+	font-family: segoe UI;
+	padding: 6px 37%;
+	color: #1da1f2;
+	text-decoration: none;
+	background-color: #ffffff;
+	border: 1px solid #1da1f2;
+	display: flex;
+	justify-content: space-between;
+}
+a:hover.inicioS{
+	background-color: #c6e3fa;
+}
+.divLinkIS{
+	float: right;
+}
+
+.divDerPar{
+	font-size: 27px;
+	font-family: segoe UI;
+	font-weight: bold;
+}
+.parDivDer{
+	line-height: 12px;
+}
+.divDerUnete{
+	margin: 48px 0px 0px 0px;
+	font-size: 18px;
+	line-height: 24px;
+	font-family: segoe UI;
+	font-weight: bold;
+}
+@media screen and (max-width: 900px;){
+	.divIzq, .divDer{
+		clear: both;
+		
+	}
+}
+
